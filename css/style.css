@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* struttura contenitore principale */
+.main-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+/* /struttura contenitore principale */
+
+/* intestazione */
+header {
+  height: 20vh;
+  width: 100%;
+  background-color: #ff33cc;
+}
+/* /intestazione */
+
+/* corpo del progetto */
+/* margini tra le sezioni */
+.margin {
+  margin-top: 5vh;
+}
+/* margini tra le sezioni */
+
+/* struttura sezione-1 */
+.section-1 {
+  height: 60vh;
+  width: 100%;
+  background-color: #e6e600;
+}
+/* /struttura sezione-1 */
+
+/* struttura sezione-2 */
+.section-2 {
+  width: 100%;
+  background-color: #005ce6;
+}
+
+.first-row {
+  height: 15vh;
+  width: 100%;
+  background-color: #00ccff;
+}
+
+.second-row {
+  width: 100%;
+  padding: 2% 0;
+}
+
+/* colonne */
+.second-row .columns {
+  height: 80vh;
+  float:left;
+  background-color: #00ccff;
+}
+
+.col-lateral {
+  width: 25%;
+}
+
+.col-central {
+  width: 48%;
+  margin: 0 1%;
+}
+/* /colonne */
+
+/* /struttura sezione-2 */
+/* /corpo del progetto */
+
+/* footer */
+footer {
+  height: 10vh;
+  width: 100%;
+  margin-top: 2vh;
+  background-color: purple;
+}
+/* /footer */
