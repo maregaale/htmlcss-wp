@@ -56,7 +56,7 @@ header>img {
 /* corpo del progetto */
 /* margini tra le sezioni */
 .margin {
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 /* margini tra le sezioni */
 
@@ -104,17 +104,31 @@ header>img {
 }
 /* /struttura sezione-1 */
 
+/* colore testo e titoli */
+.text-color {
+  color: #929292;
+}
+/* /colore testo e titoli */
+
 /* struttura sezione-2 */
 .section-2 {
   width: 100%;
-  background-color: #005ce6;
 }
 
-.first-row {
-  height: 15vh;
-  width: 100%;
-  background-color: #00ccff;
+/* stile titoli */
+.first-row h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -1px;
 }
+
+.first-row h5 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+/* /stile titoli */
+
 
 .second-row {
   width: 100%;
