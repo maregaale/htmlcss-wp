@@ -51,20 +51,17 @@ header>img {
   text-decoration: none;
 }
 /* main-nav */
-
-
-
 /* /intestazione */
 
 /* corpo del progetto */
 /* margini tra le sezioni */
 .margin {
-  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 /* margini tra le sezioni */
 
 /* struttura sezione-1 */
-.section-1 {
+.hero{
   height: 60vh;
   width: 100%;
   background-color: #e6e600;
