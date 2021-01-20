@@ -62,9 +62,16 @@ header>img {
 
 /* struttura sezione-1 */
 .hero{
-  height: 60vh;
   width: 100%;
-  background-color: #e6e600;
+  height: 75vh;
+}
+
+.hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+
 }
 /* /struttura sezione-1 */
 
