@@ -18,7 +18,7 @@ body {
 
 /* struttura contenitore principale */
 .main-container {
-  width: 90%;
+  width: 85%;
   margin: auto;
   margin-top: 4vh;
   margin-bottom: 4vh;
@@ -84,6 +84,23 @@ header>img {
 
 .border {
   border-radius: 20px;
+}
+
+.hero .text {
+  position: absolute;
+  width: 48%;
+  left: 7%;
+  bottom: 20%;
+  color: white;
+}
+
+.hero .text h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.hero .text p {
+  width: 90%;
 }
 /* /struttura sezione-1 */
 
